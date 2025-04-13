@@ -1,0 +1,234 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 288px;
+  background-color: #f9fafb;
+}
+
+/* Heading */
+.heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #000;
+}
+
+/* Video count text */
+.video-count {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+/* Main content wrapper */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Speed display row */
+.speed-display {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.speed-value {
+  color: #000;
+}
+
+.speed-label {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+/* Gamble alert */
+.gamble-alert {
+  margin-bottom: 16px;
+  padding: 8px;
+  background-color: #fef3c7;
+  border-radius: 4px;
+  border: 1px solid #fcd34d;
+  text-align: center;
+}
+
+.gamble-title {
+  font-weight: bold;
+  color: #92400e;
+}
+
+.gamble-info {
+  font-size: 0.875rem;
+  color: #b45309;
+}
+
+/* Range slider */
+.slider {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.slider:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Speed button grid */
+.speed-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.speed-button {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+}
+
+.speed-button-active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.speed-button-inactive {
+  background-color: #e5e7eb;
+  color: #000;
+}
+
+.speed-button-inactive:hover {
+  background-color: #d1d5db;
+}
+
+.speed-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Custom speed input */
+.custom-speed-container {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.custom-speed-input {
+  flex: 1;
+  padding: 4px 8px;
+  border: 1px solid #d1d5db;
+  border-right: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.custom-speed-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.apply-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 4px 12px;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+
+.apply-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Gamble button */
+.gamble-button {
+  background-color: #9333ea;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.gamble-button:hover {
+  background-color: #7e22ce;
+}
+
+.gamble-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Timer text */
+.timer-text {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+/* No videos message */
+.no-videos {
+  text-align: center;
+  color: #4b5563;
+  margin: 24px 0;
+}
+
+.no-videos-title {
+  margin-bottom: 8px;
+}
+
+.no-videos-info {
+  font-size: 0.875rem;
+}
